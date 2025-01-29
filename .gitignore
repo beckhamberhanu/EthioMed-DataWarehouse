@@ -1,10 +1,9 @@
 # Environment
-.env
-.env.local
+.med_env
+.med_env.local
 
-# Data and notebooks (exclude from Git)
+# Data (exclude from Git)
 /data/
-/notebooks/
 
 # Python
 __pycache__/
