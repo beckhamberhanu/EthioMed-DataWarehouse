@@ -1,0 +1,25 @@
+# Environment
+.env
+.env.local
+
+# Data and notebooks (exclude from Git)
+/data/
+/notebooks/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DBT
+/target/
+/dbt_packages/
