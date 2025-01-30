@@ -1,9 +1,30 @@
-pandas
-numpy
-scikit-learn
-torch
-transformers
-telethon
-fastapi
-uvicorn
-pytest
+# Core Scraping & Database
+telethon==1.34.1            # Telegram API client
+python-dotenv==1.0.0        # Environment variables
+psycopg2-binary==2.9.9      # PostgreSQL adapter
+
+# Data Processing
+pandas==2.1.4               # Data manipulation
+numpy==1.26.3               # Numerical operations
+python-dateutil==2.8.2      # Date parsing
+
+# API & Web
+requests==2.31.0            # HTTP requests
+beautifulsoup4==4.12.2      # HTML parsing (backup for web scraping)
+
+# Utilities
+tqdm==4.66.1                # Progress bars
+loguru==0.7.2               # Enhanced logging (alternative to stdlib logging)
+
+# Database Tools
+sqlalchemy==2.0.30          # ORM for FastAPI
+dbt-postgres==1.8.0         # DBT for transformations (Task 2)
+
+# YOLO Dependencies (Task 3)
+torch==2.2.1                # PyTorch
+opencv-python==4.9.0.80     # Image processing
+pillow==10.2.0              # Image handling
+
+# FastAPI (Task 4)
+fastapi==0.110.0
+uvicorn==0.29.0

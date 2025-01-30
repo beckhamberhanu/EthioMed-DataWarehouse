@@ -1,7 +1,9 @@
 # Environment
+med_env
 .med_env
 .med_env.local
-
+.env
+.env.local
 # Data (exclude from Git)
 /data/
 
@@ -22,3 +24,6 @@ Thumbs.db
 # DBT
 /target/
 /dbt_packages/
+
+# logs
+logs

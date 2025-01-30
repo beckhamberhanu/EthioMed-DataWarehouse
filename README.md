@@ -28,20 +28,10 @@ EthioMed-DataWarehouse/
 ├── data/                 # Raw and processed data (ignored in Git)
 │   ├── raw/              # Raw scraped data
 │   ├── processed/        # Cleaned and transformed data
-│   ├── conll/            # Labeled data in CoNLL format for NER
 ├── notebooks/            # Jupyter notebooks for analysis
-│   ├── 01_Data_Ingestion.ipynb
-│   ├── 02_Data_Preprocessing.ipynb
-│   ├── 03_NER_Finetuning.ipynb
-│   ├── 04_Model_Evaluation.ipynb
-│   ├── 05_Model_Interpretability.ipynb
 ├── scripts/              # Core pipeline scripts
 │   ├── data_ingestion.py          # Telegram scraping pipeline
 │   ├── data_preprocessing.py      # Cleaning and formatting text
-│   ├── labeling.py                 # Converts data to NER format
-│   ├── ner_training.py             # Fine-tunes NER models
-│   ├── model_evaluation.py         # Model performance analysis
-│   ├── interpretability.py         # Model interpretability (SHAP/LIME)
 ├── models/               # Trained models and evaluation results
 │   ├── trained_models/   # Fine-tuned models
 │   ├── results/          # Model performance reports
