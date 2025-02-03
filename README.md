@@ -28,10 +28,16 @@ EthioMed-DataWarehouse/
 ├── data/                 # Raw and processed data (ignored in Git)
 │   ├── raw/              # Raw scraped data
 │   ├── processed/        # Cleaned and transformed data
-├── notebooks/            # Jupyter notebooks for analysis
+│   ├── yolo_dataset/Images
+│   ├── yolo_detections/    
 ├── scripts/              # Core pipeline scripts
 │   ├── data_ingestion.py          # Telegram scraping pipeline
 │   ├── data_preprocessing.py      # Cleaning and formatting text
+│   dbt/
+│   ├── ethiomed_transformations    # data transformation
+│   yolo/
+│   ├── detect.py          
+│   ├── prepare_images.py
 ├── models/               # Trained models and evaluation results
 │   ├── trained_models/   # Fine-tuned models
 │   ├── results/          # Model performance reports
