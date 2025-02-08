@@ -97,19 +97,10 @@ cd scripts/dbt
 dbt run
 
 ```
-## Running in Google Colab
-
-### Upload notebooks to Google Drive and mount it:
-
-```bash
-from google.colab import drive
-drive.mount('/content/drive')
-
-```
 ### Install dependencies:
 
 ```bash
-!pip install -r /content/drive/MyDrive/EthioMed-DataWarehouse/requirements.txt
+pip install /EthioMed-DataWarehouse/requirements.txt
 
 ```
 ## 📌 CI/CD with GitHub Actions

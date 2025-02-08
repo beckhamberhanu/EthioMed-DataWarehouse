@@ -2,11 +2,12 @@ from pydantic import BaseModel
 from datetime import datetime
 
 class MessageBase(BaseModel):
+    id: int
     message_id: int
     channel: str
-    cleaned_text: str
-    message_date: datetime
-    media_path: str
+    text: str  # Matches DB column name (was cleaned_text)
+    date: datetime  # Matches DB column name (was message_date)
+    media_path: str | None  # Allow NULL values
 
     class Config:
         orm_mode = True
