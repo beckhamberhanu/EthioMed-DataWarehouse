@@ -38,6 +38,12 @@ EthioMed-DataWarehouse/
 │   yolo/
 │   ├── detect.py          
 │   ├── prepare_images.py
+│   api/
+│   ├── crud.py          
+│   ├── database.py
+│   ├── main.py          
+│   ├── models.py
+│   ├── schemas.py          
 ├── models/               # Trained models and evaluation results
 │   ├── trained_models/   # Fine-tuned models
 │   ├── results/          # Model performance reports
